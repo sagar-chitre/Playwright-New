@@ -26,7 +26,13 @@
 	    <version>5.0.0</version>
 	</dependency>
 	
-	
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+	    <groupId>org.json</groupId>
+	    <artifactId>json</artifactId>
+	    <version>20210307</version>
+	</dependency>
+	  
 	<!-- https://mvnrepository.com/artifact/com.microsoft.playwright/driver-bundle -->
 	<!-- <dependency>
 	    <groupId>com.microsoft.playwright</groupId>
