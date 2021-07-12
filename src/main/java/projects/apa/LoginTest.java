@@ -21,6 +21,11 @@ public class LoginTest extends BaseTestClass {
 	boolean screenprint =screenPrint(true);
 	
 	@Test
+	public void testExecution() throws Exception {
+	CreateTestExecution.creatExecution();
+	}
+	
+	@Test
 	public void verifyLoginPage() throws Exception {
 
 		// Below 2 lines should be called in each test.
